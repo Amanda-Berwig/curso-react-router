@@ -1,14 +1,17 @@
-import { BrowserRouter, Route, Routes } from "react-router";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import Nav from "./assets/components/Nav";
+import Nav from "./components/Nav";
+import Banner from "./components/Banner";
 
 function App() {
   return (
     <BrowserRouter>
       <Nav />
+      <Banner />
       <Routes>
-        <Route path="/" element={<h1>Home</h1>} />
-        <Route path="/sobremesas" element={<h1>Sobremesas</h1>} />
+        <Route path="/" element={<h1>Sobremesas</h1>} />
+        <Route path="/bebidas" element={<h1>Bebidas</h1>} />
+        <Route path="*" element={<div>Página não encontrada</div>} />
       </Routes>
     </BrowserRouter>
   );
