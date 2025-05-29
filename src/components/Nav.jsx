@@ -5,10 +5,10 @@ export default function Nav() {
     <nav>
       <ul>
         <li>
-          <LinkNav to="/"> Sobremesas</LinkNav>
+          <LinkNav to="/"> Inicio</LinkNav>
         </li>
         <li>
-          <LinkNav to="/bebidas"> Bebidas</LinkNav>
+          <LinkNav to="/Lanches"> Lanches </LinkNav>
         </li>
       </ul>
     </nav>
