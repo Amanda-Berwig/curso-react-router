@@ -1,12 +1,47 @@
-# React + Vite
+# 🍔 Product List with Cart — Projeto em React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é uma aplicação SPA (Single Page Application) construída com React e React Router, inspirada em um desafio do [Frontend Mentor](https://www.frontendmentor.io/challenges/product-list-with-cart-5MmqLVAp_d) e desenvolvida como prática dos conceitos aprendidos no curso da Alura sobre React-Router.
 
-Currently, two official plugins are available:
+## 📚 Sobre o projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A aplicação simula uma listagem de produtos (lanches) com dados dinâmicos vindos de um arquivo JSON. O usuário pode visualizar os detalhes dos produtos, navegar entre páginas de forma fluida e futuramente incluir funcionalidades de carrinho.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Tecnologias e bibliotecas utilizadas
+
+- [React](https://reactjs.org/)
+- [React Router DOM](https://reactrouter.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Vite](https://vitejs.dev/)
+- \[JSON local] para simular uma API de produtos
+
+---
+
+## 🎯 Objetivos de aprendizado
+
+Durante o desenvolvimento, foram praticados os seguintes tópicos:
+
+✅ Criação de rotas com `react-router-dom`
+✅ Implementação de uma SPA (Single Page Application)
+✅ Uso de rotas aninhadas e dinâmicas
+✅ Leitura dinâmica de dados do JSON
+✅ Estilização responsiva com Tailwind
+✅ Organização de componentes reutilizáveis
+
+---
+
+## 🧲 Desafio do Frontend Mentor
+
+O desafio original pode ser encontrado aqui:
+👉 [Product list with cart – Frontend Mentor](https://www.frontendmentor.io/challenges/product-list-with-cart-7c6yytzj6)
+
+Objetivo do desafio:
+
+> Praticar a atualização da interface com base em ações do usuário. O starter inclui um JSON com produtos, facilitando o uso dinâmico dos dados.
+
+---
+
+## 💡 Curso base utilizado
+
+Este projeto foi inspirado nas práticas do curso: React: desenvolvendo em React Router com JavaScript\_
