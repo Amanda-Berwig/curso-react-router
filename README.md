@@ -10,11 +10,11 @@ A aplicação simula uma listagem de produtos (lanches) com dados dinâmicos vin
 
 ## Tecnologias e bibliotecas utilizadas
 
-- [React](https://reactjs.org/)
-- [React Router DOM](https://reactrouter.com/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Vite](https://vitejs.dev/)
-- \[JSON local] para simular uma API de produtos
+- React
+- React Router DOM
+- Tailwind CSS
+- Vite
+- JSON local para simular uma API de produtos
 
 ---
 
@@ -22,11 +22,11 @@ A aplicação simula uma listagem de produtos (lanches) com dados dinâmicos vin
 
 Durante o desenvolvimento, foram praticados os seguintes tópicos:
 
-✅ Criação de rotas com `react-router-dom`
-✅ Implementação de uma SPA (Single Page Application)
-✅ Uso de rotas aninhadas e dinâmicas
-✅ Leitura dinâmica de dados do JSON
-✅ Estilização responsiva com Tailwind
+✅ Criação de rotas com `react-router-dom` <br>
+✅ Implementação de uma SPA (Single Page Application) <br>
+✅ Uso de rotas aninhadas e dinâmicas <br>
+✅ Leitura dinâmica de dados do JSON <br>
+✅ Estilização responsiva com Tailwind <br>
 ✅ Organização de componentes reutilizáveis
 
 ---
