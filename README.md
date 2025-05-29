@@ -1,14 +1,14 @@
-# 🍔 Product List with Cart — Projeto em React
+# Projeto em React - Cafeteria
 
 Este projeto é uma aplicação SPA (Single Page Application) construída com React e React Router, inspirada em um desafio do [Frontend Mentor](https://www.frontendmentor.io/challenges/product-list-with-cart-5MmqLVAp_d) e desenvolvida como prática dos conceitos aprendidos no curso da Alura sobre React-Router.
 
-## 📚 Sobre o projeto
+## Sobre o projeto
 
 A aplicação simula uma listagem de produtos (lanches) com dados dinâmicos vindos de um arquivo JSON. O usuário pode visualizar os detalhes dos produtos, navegar entre páginas de forma fluida e futuramente incluir funcionalidades de carrinho.
 
 ---
 
-## 🚀 Tecnologias e bibliotecas utilizadas
+## Tecnologias e bibliotecas utilizadas
 
 - [React](https://reactjs.org/)
 - [React Router DOM](https://reactrouter.com/)
@@ -18,7 +18,7 @@ A aplicação simula uma listagem de produtos (lanches) com dados dinâmicos vin
 
 ---
 
-## 🎯 Objetivos de aprendizado
+## Objetivos de aprendizado
 
 Durante o desenvolvimento, foram praticados os seguintes tópicos:
 
@@ -31,10 +31,10 @@ Durante o desenvolvimento, foram praticados os seguintes tópicos:
 
 ---
 
-## 🧲 Desafio do Frontend Mentor
+## Desafio do Frontend Mentor
 
 O desafio original pode ser encontrado aqui:
-👉 [Product list with cart – Frontend Mentor](https://www.frontendmentor.io/challenges/product-list-with-cart-7c6yytzj6)
+[Product list with cart – Frontend Mentor](https://www.frontendmentor.io/challenges/product-list-with-cart-7c6yytzj6)
 
 Objetivo do desafio:
 
@@ -42,6 +42,6 @@ Objetivo do desafio:
 
 ---
 
-## 💡 Curso base utilizado
+## Curso base utilizado
 
 Este projeto foi inspirado nas práticas do curso: React: desenvolvendo em React Router com JavaScript\_
