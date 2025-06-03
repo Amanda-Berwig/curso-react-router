@@ -2,26 +2,28 @@
 @import "tailwindcss";
 
 :root {
-  --creme-elegante: #F6F1EB;
-  --rosa-cha: #E8C7C8;
-  --verde-pistache: #BFD8B8;
-  --azul-acinzentado: #B5CFE1;
-  --marrom-cappuccino: #7D5A50;
-  --caramelo-claro: #D6A77A;
+  --primary-color: #FF6B8B;
+  --primary-dark: #FF4D73;
+  --secondary-color: #9B6B9E;
+  --accent-color: #FFD700;
+  --background-light: #FFF5F7;
+  --text-primary: #333333;
+  --text-secondary: #666666;
+  --white: #FFFFFF;
 }
 
 body {
-  background-color: var(--creme-elegante);
-  color: var(--marrom-cappuccino);
+  background-color: var(--background-light);
+  color: var(--text-primary);
   font-family: 'Red-Hat-Text', sans-serif;
 }
 
 header {
-  background-color: var(--rosa-cha);
+  background-color: var(--primary-color);
 }
 
 button.primary {
-  background-color: var(--verde-pistache);
+  background-color: var(--secondary-color);
   color: #333;
   border: none;
   padding: 10px 20px;
@@ -31,12 +33,12 @@ button.primary {
 }
 
 button.primary:hover {
-  background-color: var(--caramelo-claro);
+  background-color: var(--accent-color);
   color: white;
 }
 
 button.secondary {
-  background-color: var(--azul-acinzentado);
+  background-color: var(--primary-dark);
   color: #333;
   border: none;
   padding: 10px 20px;

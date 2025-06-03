@@ -1,5 +1,5 @@
 import posts from "../../data.json";
-import ProductCard from "../../components/Products";
+import ProductCard from "../../components/ProductCard";
 
 export default function ProductList() {
   return (
