@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "./Button";
 
-export default function Products({ item }) {
+export default function ProductCard({ item }) {
   return (
     <div className="flex flex-col items-center p-2 ">
       <picture>

@@ -2,8 +2,8 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import Nav from "./components/Nav";
 import Inicio from "./pages/Inicio";
-import ShowLanches from "./pages/Lanches";
 import BasePage from "./components/BasePage";
+import ProductList from "./pages/Lanches";
 
 function App() {
   return (
@@ -12,8 +12,8 @@ function App() {
 
       <Routes>
         <Route path="/" element={<BasePage />}>
-          <Route path="/" element={<Inicio />} />
-          <Route path="/lanches" element={<ShowLanches />} />
+          <Route index element={<Inicio />} />
+          <Route path="lanches" element={<ProductList />} />
         </Route>
 
         <Route path="*" element={<div>Página não encontrada</div>} />
