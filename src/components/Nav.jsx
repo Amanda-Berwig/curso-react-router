@@ -4,7 +4,7 @@ import logo from "../assets/logo-preview.png";
 
 export default function Nav() {
   return (
-    <nav className="shadow-md flex justify-between gap-10 px-4">
+    <nav className="shadow-md flex justify-between gap-10 px-10">
       <img src={logo} alt="" className="w-35 h-35" />
       <ul className="flex flex-row items-center gap-10">
         <li>
