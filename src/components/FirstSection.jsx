@@ -2,8 +2,11 @@ import React from "react";
 import Bebidas from "../assets/bebidas.webp";
 import Doces from "../assets/doces.webp";
 import { BasicButton } from "./BasicButton";
+import { useNavigate } from "react-router-dom";
 
 export const FirstSection = () => {
+  const navegar = useNavigate();
+
   return (
     <section className="flex w-full h-1/2 px-30 gap-3">
       {/* bebidas */}
@@ -33,7 +36,9 @@ export const FirstSection = () => {
         <p className="text-[#7D5A50] tracking-widest mb-8 text-2xl font-medium">
           E MUITO MAIS...
         </p>
-        <BasicButton>VEJA NOSSO CARDÁPIO</BasicButton>
+        <BasicButton onClick={() => navegar("/Cardapio")}>
+          VEJA NOSSO CARDÁPIO
+        </BasicButton>
       </div>
     </section>
   );

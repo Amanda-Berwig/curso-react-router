@@ -5,10 +5,12 @@ import Inicio from "./pages/Inicio";
 import BasePage from "./components/BasePage";
 import ProductList from "./pages/Lanches";
 import { CartProvider } from "./context/CartContext";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <CartProvider>
         <Nav />
 
