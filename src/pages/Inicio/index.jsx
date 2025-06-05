@@ -1,10 +1,10 @@
-import Banner from "../../components/Banner";
 import { FirstSection } from "../../components/FirstSection";
+import { Section } from "../../components/Section";
 
 export default function Inicio() {
   return (
     <>
-      <h1>Informações sobre a padaria/cafeteria em geral </h1>;
+      <Section />
       <FirstSection />
     </>
   );
